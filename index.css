@@ -1,0 +1,105 @@
+body{
+    background-color:  #ba4949;
+}
+.first{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    margin-top: 0px;
+    color: white;
+    justify-content: space-between;
+    
+}
+.main{
+    
+    background-color: #c06565;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width:650px;
+    height: 320px;
+    border-radius: 10px; 
+    flex-direction: column;
+}
+.seconde{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chrono{
+    width: 120px;
+    height: 40px;
+    font-size: 30px; 
+    border-radius: 10px; 
+    background-color: #c78484; 
+    color: white; 
+    border: none; 
+    cursor: pointer;
+    margin-top: 150px;
+    
+}
+#timer{
+    width: 120px;
+    height: 40px;
+    font-size: 30px; 
+    border-radius: 10px; 
+    background-color: #af4040; 
+    color: white; 
+    border: none; 
+    cursor: pointer;
+    
+}
+#start{
+    
+    width: 170px;
+    height: 40px;
+    font-size: 30px; 
+    border-radius: 10px; 
+    background-color:white; 
+    color:#bb4849; 
+    border: none; 
+    cursor: pointer;
+   
+}
+#time{
+    display: flex;
+    font-size: 100px;
+    color: aliceblue;
+    margin-bottom: 5px; 
+}
+.clock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 300px;
+}
+.icons{
+    margin-right: 300px;
+}
+.black-line {
+    width: 100%; /* Set the width to fill the entire width of the page */
+    height: 1px; /* Set the height to create a thin line */
+    background-color: black; /* Set the background color to black */
+}
+.task{
+    margin-top:200px;
+}
+.text{
+    margin-bottom: px;
+    font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+.buttons{
+    margin-top: -55px;
+    margin-bottom: -80px;
+    
+}
+.buttons button{
+    margin: 0 10px;
+}
